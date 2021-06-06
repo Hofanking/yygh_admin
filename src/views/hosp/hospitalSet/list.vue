@@ -8,7 +8,7 @@
         <el-input v-model="searchObj.hoscode" placeholder="医院编号" />
       </el-form-item>
       <el-button type="primary" icon="el-icon-search" @click="getList()"
-        >查询</el-button
+        >查询2222</el-button
       >
     </el-form>
 
