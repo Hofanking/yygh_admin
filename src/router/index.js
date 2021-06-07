@@ -60,13 +60,13 @@ export const constantRouterMap = [
         path: "hospitalSet/add",
         name: "EduTeacherCreate",
         component: () => import("@/views/hosp/hospitalSet/form"),
-        meta: { title: "添加", icon: "table" }
+        meta: { title: "医院添加", icon: "table" }
       },
       {
         path: "hospitalSet/edit/:id",
         name: "EduTeacherEdit",
         component: () => import("@/views/hosp/hospitalSet/form"),
-        meta: { title: "编辑", noCache: true, icon: "table" },
+        meta: { title: "医院编辑", noCache: true, icon: "table" },
         hidden: true
       }
     ]
